@@ -1,0 +1,118 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 20px;
+  background-color: #fafafa;
+
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Sonsie One', cursive;
+  color: #2a2a2a;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: left;
+  color: white;
+}
+
+h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #1b2283;
+  text-shadow: 2px 2px 10px #f0c32f;
+
+}
+
+h3 {
+  font-size: 2rem;
+  text-align: center;
+  color: #1b2283;
+  text-shadow: 2px 2px 10px #f0c32f;
+}
+
+p {
+  color: #1b2283;
+  text-align: center;
+  font-size: 6;
+}
+
+header {
+  background-color: #252eb3;
+}
+
+
+nav {
+  height: 70px;
+  background-color: #1f2686;
+  display: flex;
+  margin-bottom: 100px;
+}
+
+nav ul {
+  padding: 0;
+  list-style-type: none;
+  flex: 2;
+  display: flex;
+}
+
+nav li {
+  display: inline;
+  text-align: center;
+  flex: 1;
+}
+
+nav a {
+  display: inline-block;
+  font-size: 2 rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+nav form {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 2em;
+}
+
+
+header {
+
+  display: flex;
+
+
+}
+
+.titulo-principal-chico {
+
+  font-size: 6;
+
+}
+
+.titulo-copas {
+
+  text-align: center;
+  color: #2a2a2a;
+
+}
+
+
+picture {
+  display: flex;
+  justify-content: center;
+}
+
+.año{
+
+  color: #f0c32f;
+}
